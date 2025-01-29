@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" >
+    <head>
+        <title>HTML Forms</title>
+    </head>
+    <body>
+        <h1>HTML Forms</h1>
+        <form action="https://instagram.com" method="POST" enctype="text/plain">
+
+            <label for="username">Enter your Username</label>
+            <input type="text" name="username" id="username"/> <br/>
+
+            <label for="email">Enter your Email</label>
+            <input type="email" name="email" id="email"/> <br/>
+            
+            <label for="coverletter">Upload your coverletter</label>
+            <input type="file" name="coverletter" id="coverletter"/> <br/>
+
+            <input type="password" name="password" id="password" placeholder="password"/>
+            
+            <label for="gender">Gender</label> <br/>
+            <input type="radio" name="gender" id="male" value="male"/>
+            <label for="male">Male</label> <br/>
+
+            <input type="radio" name="gender" id="female" value="female"/>
+            <label for="female">Female</label> <br/>
+
+            <label for="age">Age</label>
+            <input type="number" name="age" id="age" max="120"/>
+
+            <input type="submit" value="send"/> <br/>
+
+        </form>
+    </body>
+</html>
